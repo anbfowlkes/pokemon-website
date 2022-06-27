@@ -14,8 +14,6 @@ pokemonIDs.map((id) => {
     let img = document.createElement('img');// creating the img element itself
 
     img.src = imgUrl;
-    img.setAttribute('height', '100px');
-    img.setAttribute('width', '100px');
     div.append(img);// append the img element to the div
     document.body.append(div);
 })
