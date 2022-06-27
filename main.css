@@ -1,0 +1,13 @@
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    font-size: 4em;
+}
+
+.pokemon-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+}
