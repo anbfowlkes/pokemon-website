@@ -1,10 +1,12 @@
 body {
     font-family: sans-serif;
+    background-color: black;
 }
 
 .header {
     font-size: 4em;
     text-align: center;
+    color: white;
 }
 
 .pokemon-card {
@@ -29,4 +31,15 @@ body {
     display: flex;
     justify-content: center;
     gap: 1%;
+}
+
+#roster {
+    display: flex;
+    justify-content: center;
+}
+
+div[id^="pokemon-"] {
+    height: 100px;
+    width: 100px;
+    border 1px solid #ccc;
 }
